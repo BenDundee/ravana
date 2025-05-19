@@ -1,0 +1,6 @@
+agents:
+- agent_name: "query"
+  prompt: "query-agent.prompt"
+- agent_name: "search"
+  prompt: "search-agent.prompt"
+
