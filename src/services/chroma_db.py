@@ -10,10 +10,9 @@ from typing import Dict, List, Optional, Tuple
 import uuid
 
 from src.configurator import Configurator
-from src.agents.types import QueryResult, Chunk, SearchResultItem
+from src.types import QueryResult, Chunk, SearchResultItem
 
 logger = logging.getLogger(__name__)
-
 
 
 # https://github.com/openai/openai-python/issues/519
