@@ -4,7 +4,7 @@ import logging
 from openai import OpenAI
 from pathlib import Path
 from typing import Dict
-from yaml import safe_load, dump
+from yaml import safe_load
 
 
 logger = logging.getLogger(__name__)
