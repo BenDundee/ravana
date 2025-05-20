@@ -4,6 +4,7 @@ from atomic_agents.agents.base_agent import BaseAgent, BaseAgentConfig, BaseIOSc
 from atomic_agents.lib.components.system_prompt_generator import SystemPromptGenerator
 from atomic_agents.lib.components.agent_memory import AgentMemory, Message
 import logging
+from pathlib import Path
 from typing import Dict, List, Optional, Type, TYPE_CHECKING
 
 from src.agents.types import (SearchToolInputSchema)
@@ -23,7 +24,7 @@ class AgentHandler(object):
 
     def __init__(self, config: cfg.Configurator):
         self.config = config
-        self.prompt_dir = f"{config.base_dir}/prompts"
+        self.prompt_dir = Path(f"{config.base_dir}") / "prompts"
 
         logger.info("Initializing agents...")
         # Agents
