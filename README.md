@@ -4,12 +4,12 @@
 
 Inspired by multi-perspective reasoning and recursive self-critique, Ravana employs multiple agents to simulate a collaborative analysis process—recommending, evaluating, and refining machine learning configurations in pursuit of optimal predictive performance.
 
+**UNDER CONSTRUCTION**
+
 ---
 
 ## ✨ Project Goals
 
-- Learn and demonstrate core concepts of the Model Context Protocol (MCP)
-- Build a working MCP server using FastMCP
 - Implement a simple AutoML-style loop with analyst and critic agents
 - Use XGBoost or LightGBM as configurable, tunable tools
 - Focus on explainability and iterative improvement based on agent dialogue
@@ -32,9 +32,3 @@ Inspired by multi-perspective reasoning and recursive self-critique, Ravana empl
 
 ---
 
-## 🔧 Getting Started (Coming Soon)
-
-```bash
-git clone https://github.com/your-username/ravana.git
-cd ravana
-# Installation and run instructions will be added once implemented
