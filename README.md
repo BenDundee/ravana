@@ -5,6 +5,7 @@
 Inspired by multi-perspective reasoning and recursive self-critique, Ravana employs multiple agents to simulate a collaborative analysis process—recommending, evaluating, and refining machine learning configurations in pursuit of optimal predictive performance.
 
 **UNDER CONSTRUCTION**
+MCP may be overkill! Set up as other projects, just need app layer and API layer. Use `Controller` model to orchestrate, as in other projects.
 
 ---
 
